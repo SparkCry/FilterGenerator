@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-generate_vc_filters_fast.py
-High-performance VentureChat regex generator using lookahead-based matching.
+SparkCry
+FilterGenerator.py
+High-performance regex generator using lookahead-based matching.
 Accepts color codes, separators, and letter variations.
 """
 
@@ -121,3 +122,4 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
         print(f"{CYAN}- {regex}, {REPLACEMENT}{RESET}\n")
 
 print(f"\n✅ Filters written to {OUTPUT_FILE} (optimized lookahead mode).\n")
+
